@@ -1,0 +1,14 @@
+<style>
+  body {
+    color: <%= @color %>
+  }
+</style>
+
+<h1>Here's how you can get in touch: </h1>
+<p>julie.ann.harrow@gmail.com</p>
+
+<%= link_to "Black", contact_path(color: "black"), class: "btn btn-default" %>
+<%= link_to "Red", contact_path(color: "red"), class: "btn btn-danger" %>
+<%= link_to "Yellow", contact_path(color: "yellow"), class: "btn btn-warning" %>
+<%= link_to "Green", contact_path(color: "green"), class: "btn btn-success" %>
+<%= link_to "Blue", contact_path(color: "blue"), class: "btn btn-primary" %>
