@@ -19,6 +19,6 @@ body {
   size: cover;
 }
 
-.container {
-  
+html {
+  font-family: 'Raleway', sans-serif;  
 }
